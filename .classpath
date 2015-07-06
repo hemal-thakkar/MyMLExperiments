@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/hemal/Downloads/spark-1.4.0-bin-hadoop2.6/lib/spark-1.4.0-yarn-shuffle.jar"/>
+	<classpathentry kind="lib" path="/Users/hemal/Downloads/spark-1.4.0-bin-hadoop2.6/lib/spark-assembly-1.4.0-hadoop2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

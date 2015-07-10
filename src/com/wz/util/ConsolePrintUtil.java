@@ -13,7 +13,7 @@ public class ConsolePrintUtil {
 	
 	/**
 	 * Used to convert a comma separated string representing a vector to a Matrix.
-	 * @param str: vector in String (comma spearated) format
+	 * @param str: vector in String (comma separated) format
 	 * @param breakAtSize the size of columns
 	 * @Useage
 	 * - Print to console and use with Octave
@@ -31,4 +31,5 @@ public class ConsolePrintUtil {
 		}
 		System.out.println(s);
 	}
+	
 }

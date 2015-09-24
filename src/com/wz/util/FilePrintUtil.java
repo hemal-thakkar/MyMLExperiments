@@ -58,5 +58,16 @@ public class FilePrintUtil {
 		fw.close();
 		br.close();
 	}
+	
+	public static void writeLineToFile(String line, String fileName) {
+		FileWriter fw;
+		try {
+			fw = new FileWriter(fileName, true);
+			fw.append(line);
+			fw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 }
